@@ -1,0 +1,62 @@
+._card:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.image {
+  padding: 10px;
+  overflow: hidden;
+
+  &:hover img {
+    transform: scale(1.2, 1.2);
+    transition: ease-in-out 0.5s;
+  }
+  &:not(:hover) img {
+    transform: scale(1, 1);
+    transition: ease-in-out 0.5s;
+  }
+}
+.stepper-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .add,
+  .sub {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background: transparent;
+    color: gray;
+
+    span {
+      line-height: 0;
+    }
+  }
+  .quantity {
+    height: 24px;
+    width: 48px;
+    text-align: center;
+    margin: 0 12px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+  }
+}
+
+.modal-header {
+  border: none !important;
+}
+._image {
+  height: 400px;
+  width: 100%;
+  image {
+    height: 100%;
+    width: 100%;
+  }
+}
+.modal-footer {
+  background: #f1f1f1;
+  justify-content: space-between !important;
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "_id": "5db464804a9936e6fab07ca2",
+        "name": "Carrot - 1 Kg",
+        "price": "23",
+        "picture": "broccoli.jpg"
+    },
+    {
+        "_id": "5db46480e255f2a8870296b2",
+        "name": "Tomato - 1 Kg",
+        "price": "67",
+        "picture": "beans.jpg"
+    },
+    {
+        "_id": "5db464802456d21936fb01cd",
+        "name": "Beans - 1 Kg",
+        "price": "12",
+        "picture": "beetroot.jpg"
+    },
+    {
+        "_id": "5db4648031cffbf097f8ce87",
+        "name": "Brinjal - 1 Kg",
+        "price": "54",
+        "picture": "button-mushroom.jpg"
+    },
+    {
+        "_id": "5db46480045ba1d2b7cb208c",
+        "name": "Capsicum",
+        "price": "30",
+        "picture": "capsicum.jpg"
+    },
+    {
+        "_id": "5db46480168f6ffd570f09de",
+        "name": "Mushroom - 1 Kg",
+        "price": "63",
+        "picture": "carrots.jpg"
+    },
+    {
+        "_id": "5db46480f70069e79a967399",
+        "name": "Potato - 1 Kg",
+        "price": "20",
+        "picture": "cauliflower.jpg"
+    }
+]

@@ -1,0 +1,28 @@
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+input {
+  outline: none !important;
+  border: none;
+  background: none;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 960px !important;
+  }
+}
